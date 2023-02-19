@@ -13,6 +13,9 @@
     margin: 0 2rem;
     width: 20rem;
 }
+.services__container{
+    display: flex;
+}
 .service:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
@@ -68,5 +71,8 @@
     .service{
         margin: 1rem 5% 0 5%;
         width: 90%;
+    }
+    .services__container{
+        display: block;
     }
 }
