@@ -1,6 +1,6 @@
 import React from 'react'
 import './portofolio.css'
-import IMG1 from '../../assets/portfolio1.PNG'
+import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'WordPress Development',
+    title: 'React Meteo App',
     github: 'https://github.com/peterondy/meteo-app-react',
     demo: 'https://github.com/peterondy/meteo-app-react'
   },
@@ -65,7 +65,7 @@ const Portofolio = () => {
                 <div className="portofolio__item-image">
                   <img src={image} alt={title} />
                 </div>
-                <h3>This is portofoolio item title</h3>
+                <h3>{title}</h3>
                 <div className="portofolio__item-cta">
                   <a href={github} className="btn" target='__blank'>Github</a>
                   <a href={demo} className="btn btn-primary" target='__blank'>Live Demo</a>
