@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container headar__container">
          <h5>Hello I'm </h5>
          <h1>Ramzi Ben. </h1>
-         <h5 className="text-light">I'm 
+         <h5 className="text-light">I'm a
           <Typewriter
               onInit={(typewriter)=> {
               typewriter
