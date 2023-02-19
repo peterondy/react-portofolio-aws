@@ -1,0 +1,142 @@
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+.about__me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: var(--transition);
+    margin-top: 3rem;
+}
+
+.about__cards{
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    margin-left: 17rem;
+    height: 300px;
+}
+.about__card{
+    float: left;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    margin-right: 1rem;
+}
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: pointer;
+}
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about__card h5{
+    font-size: 0.95rem;
+}
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+    float: left;
+}
+.about__content a{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+/*=================media Queries (medium devices)===============*/
+@media screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me{
+        width: 40%;
+        height: 300px;
+        margin: 2rem auto 4rem;
+        margin-top: 8rem;
+    }
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+    }
+    #about{
+        height: 90vh;
+    }
+    .about__me-image{
+        width: 250px;
+        height: 250px;
+        margin-top: -5px;
+    }
+    .about__cards{
+        margin-left: 20rem;
+    }
+    .about__card{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .about__content a{
+        margin-left: 40%;
+    }
+}
+/*=================media Queries (small devices)===============*/
+@media screen and (max-width: 600px){
+    #about{
+        height: 200vh;
+    }
+    .about__me{
+        width: 100%;
+        margin: 0 auto ;
+        height: 350px;
+    }
+    .about__me-image{
+        width: 320px;
+        height: 320px;
+        margin-top: -5px;
+    }
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-left: 0;
+    }
+    .about__card{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .about__content{
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+    .about__content a{
+        margin-left: 30%;
+    }
+}
