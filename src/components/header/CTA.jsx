@@ -6,7 +6,7 @@ const CTA = () => {
   return (
     <div className='cta'>
         <a href={CV} download className='btn'>Download CV</a>
-        <a href="https://www.upwork.com/freelancers/~018d2cf7cd086a663e" className='btn btn-primary'>Hire ME On Upwork<SiUpwork id='upwork'/></a>
+        <a href="https://www.upwork.com/freelancers/~018d2cf7cd086a663e" className='btn btn-primary' target='_blank'>Hire ME On Upwork<SiUpwork id='upwork'/></a>
     </div>
   )
 }
