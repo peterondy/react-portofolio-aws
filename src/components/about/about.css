@@ -27,8 +27,9 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    margin-left: 17rem;
+    margin-left: 1rem;
     height: 300px;
+    display: flex;
 }
 .about__card{
     float: left;
@@ -77,8 +78,8 @@
         gap: 0;
     }
     .about__me{
-        width: 40%;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin: 2rem auto 4rem;
         margin-top: 8rem;
     }
@@ -86,22 +87,21 @@
         margin: 1rem 0 1.5rem;
     }
     #about{
-        height: 90vh;
+        height: 100vh;
     }
     .about__me-image{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
         margin-top: -5px;
     }
     .about__cards{
-        margin-left: 20rem;
+        margin-left: 1rem;
+        display: flex;
     }
     .about__card{
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-    .about__content a{
-        margin-left: 40%;
+        margin: 0 0.5rem;
+        padding: 2rem 1rem;
+        width: 33%;
     }
 }
 /*=================media Queries (small devices)===============*/
@@ -137,6 +137,6 @@
         margin: 1.5rem 0;
     }
     .about__content a{
-        margin-left: 30%;
+        margin-left: 1rem;
     }
 }
