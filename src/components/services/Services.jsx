@@ -46,8 +46,13 @@ const Services = () => {
               </li>
               <li>
                 <HiCheck />
+                <p>Using plugins like Elementor, Divi, Aios, Wpforms.</p>  
+              </li>
+              <li>
+                <HiCheck />
                 <p>Fix Errors & Isssues.</p>  
               </li>
+              <a href="https://www.upwork.com/services/product/development-it-a-responsive-amazing-and-modern-wordpress-website-1616430225200214016?ref=fl_profile" className="btn btn-primary" target='_blank'>Go To Upwork</a>
             </ul>
           </article>
           <article className="service">
