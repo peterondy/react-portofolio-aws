@@ -60,7 +60,7 @@ header{
 /*=================media Queries (medium devices)===============*/
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 115vh;
     }
 }
 /*=================media Queries (medium devices)===============*/
