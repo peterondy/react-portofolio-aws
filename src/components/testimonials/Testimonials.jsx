@@ -1,9 +1,5 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpeg'
-import AVTR2 from '../../assets/avatar2.jpeg'
-import AVTR3 from '../../assets/avatar3.jpeg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -46,7 +42,7 @@ const Testimonials = () => {
             return(
               <SwiperSlide className="testimonial">
                 <div className="client__avatar">
-                  <img src={avata} alt="Avatar 1" />
+                  <img src="..." alt="Avatar 1" />
                 </div>
                 <h5 className="client__name">{name}</h5>
                 <small className='client__review'>{review}</small>
