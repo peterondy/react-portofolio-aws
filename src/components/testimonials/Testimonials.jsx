@@ -5,6 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
+import AVTR1 from '../../assets/avatar2.jpeg'
+import AVTR2 from '../../assets/avatar1.jpeg'
+import AVTR4 from '../../assets/avatar4.jpg'
+
 const data = [
   {
     avatar: AVTR1,
@@ -18,13 +22,8 @@ const data = [
   },
   {
     avatar: AVTR3,
-    name: 'He knows very well what he is doing as long as you tell him the details. He is organized, easy to deal with, and loves to help people. I highly recommend him and will deal with him in the future.',
-    review: 'Thank you.'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Romina Ilina-Posea',
-    review: 'I am very happy to deal with him.'
+    name: 'Ziad Bobas',
+    review: 'He knows very well what he is doing as long as you tell him the details. He is organized, easy to deal with, and loves to help people. I highly recommend him and will deal with him in the future.'
   },
 ]
 const Testimonials = () => {
@@ -42,7 +41,7 @@ const Testimonials = () => {
             return(
               <SwiperSlide className="testimonial">
                 <div className="client__avatar">
-                  <img src="..." alt="Avatar 1" />
+                  <img src={avatar} alt="Avatar 1" />
                 </div>
                 <h5 className="client__name">{name}</h5>
                 <small className='client__review'>{review}</small>
