@@ -1,13 +1,12 @@
 import React from 'react'
 import './testimonials.css'
+import AVTR1 from '../../assets/avatar2.jpeg'
+import AVTR2 from '../../assets/avatar1.jpeg'
+import AVTR3 from '../../assets/avatar4.jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-
-import AVTR1 from '../../assets/avatar2.jpeg'
-import AVTR2 from '../../assets/avatar1.jpeg'
-import AVTR4 from '../../assets/avatar4.jpg'
 
 const data = [
   {
