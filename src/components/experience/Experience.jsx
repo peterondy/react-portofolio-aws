@@ -17,6 +17,7 @@ import {FaAws} from 'react-icons/fa'
 import {DiMongodb} from 'react-icons/di'
 import {SiFirebase} from 'react-icons/si'
 import {SiSqlite} from 'react-icons/si'
+import {SiTailwindcss} from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -57,8 +58,9 @@ const Experience = () => {
               </article>
               <article className="experience__details">
                 <FaBootstrap className='experience__detail-icon' />
+                <SiTailwindcss className='experience__detail-icon' />
                 <div>
-                  <h4>Bootstrap</h4>
+                  <h4>Bootstrap & Tailwind</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </article>
