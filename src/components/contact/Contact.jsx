@@ -31,8 +31,8 @@ const Contact = () => {
           <article className="contact__option">
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>ramzi@ramziben.live</h5>
-            <a href="mailto:ramzi@ramziben.live" target='__blank'>Send A Message Using Email</a>
+            <h5>peterondy.freelance@gmail.com</h5>
+            <a href="mailto:peterondy.freelance@gmail.com" target='__blank'>Send A Message Using Email</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
