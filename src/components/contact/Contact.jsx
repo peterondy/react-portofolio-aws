@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_58auz9y', 'template_80x4y2q', form.current, '52h9hmi2jHLeQiaMJ')
+    emailjs.sendForm('service_58auz9y', 'template_e48i18f', form.current, '52h9hmi2jHLeQiaMJ')
       .then((result) => {
           console.log(result.text);
           alert('Message Send.Thank you for your message. I will contact you as soon as possible. ')
