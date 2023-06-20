@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv1.pdf'
+import CV from '../../assets/ramziben-cv.pdf'
 import {SiUpwork} from 'react-icons/si'
 
 const CTA = () => {
