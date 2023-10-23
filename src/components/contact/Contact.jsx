@@ -37,14 +37,14 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+213558683566</h5>
-            <a href="https://wa.me/+213558683566" target='__blank'>Send A Message Using Whatsapp</a>
+            <h5>+213663644389</h5>
+            <a href="https://wa.me/+213663644389" target='__blank'>Send A Message Using Whatsapp</a>
           </article>
           <article className="contact__option">
             <FaTelegramPlane className='contact__option-icon'/>
             <h4>Telegram</h4>
-            <h5>+213558683566</h5>
-            <a href="https://t.me/+213558683566" target='__blank'>Send A Message Using Telegram</a>
+            <h5>+213663644389</h5>
+            <a href="https://t.me/+213663644389" target='__blank'>Send A Message Using Telegram</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
