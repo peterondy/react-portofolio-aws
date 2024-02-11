@@ -79,7 +79,7 @@ export default function Services () {
 
 
   return (
-    <div className='services text-center'>
+    <div className='services text-center' id='services'>
         <h1 className='text-2xl bold mt-8'>Services</h1>
         <div className='cards'>
             {cardData.map((card, index) => {
