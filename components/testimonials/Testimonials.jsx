@@ -77,7 +77,7 @@ const Testimonials = () => {
                             <div key={index} className="relative testimonial">
                                 <dt>
                                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
-                                        <Image src={testimonial.image} className='rounded-full' width={100} height={100}></Image>
+                                        <Image src={testimonial.image} className='rounded-full' width={100} height={100} alt={'Testimonial Client Image ' + testimonial.name}></Image>
                                     </div>
                                     <p className="ml-16 text-lg leading-6 font-medium text-[##172c3d]">
                                         {testimonial.name} 
