@@ -1,0 +1,25 @@
+.testimonials{
+    height: 100vh;
+}
+
+@media screen and (max-width : 460px) {
+    .testimonials{
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .testimonials{
+        height: 200vh;
+    }
+}
+@media screen and (max-width : 350px) {
+    .testimonials{
+        height: 220vh;
+    }
+}
+@media screen and (max-width : 280px) {
+    .testimonials{
+        height: 250vh;
+    }
+}
