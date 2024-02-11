@@ -33,7 +33,7 @@ export default function Main () {
             <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
                 <div className='imagecontent float-left'>
                     <div className=''>
-                        <Image src={me} className='imgme rounded mb-8' width={300} height={300} alt='My Image' />
+                        <Image src='https://avatars.githubusercontent.com/u/90659432?s=400&u=538a2a5eecb2b48ee7d2b4f1d5021126bac6e869&v=4' className='imgme rounded mb-8' width={300} height={300} alt='My Image' />
                         <div className='socialmedialinks w-[calc(100% - 5rem)]'>
                             <Link href='https://ramziben.github.io/' title='My official website' target='_blank' className='inline-block mr-2'><FaEarthAfrica className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
                             <Link href='https://www.linkedin.com/in/ramziben/' title='Linkedin' target='_blank' className='inline-block mr-2'><FaLinkedinIn className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
