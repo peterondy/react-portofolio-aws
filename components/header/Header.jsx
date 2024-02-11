@@ -22,7 +22,7 @@ export default function Header() {
                     <Link href='/' className='block py-2 px-3  text-[#1c364b] bg-blue-700 rounded md:bg-transparent md:text-blue-[#477091] md:p-0 dark:text-white md:dark:text-blue-500' aria-current='page'>Home</Link>
                 </li>
                 <li>
-                    <Link href='/services' className='block py-2 px-3  text-[#1c364b] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-[#477091] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Services</Link>
+                    <Link href='#services' className='block py-2 px-3  text-[#1c364b] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-[#477091] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Services</Link>
                 </li>
                 <li>
                     <Link href='#projects' className='block py-2 px-3  text-[#1c364b] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-[#477091] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Projects</Link>
