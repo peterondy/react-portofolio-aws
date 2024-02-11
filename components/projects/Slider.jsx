@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import paxontools from '@/public/paxontools.png'
-import portfolio1 from '@/public/portfolio1.png'
+import portfolio2 from '@/public/portfolio2.png'
 import portfolio1 from '@/public/portfolio1.jpg'
 
 import React, {useState,useEffect} from 'react'
@@ -14,7 +14,7 @@ export default function Slider () {
             id:1,
             title: 'Meteo react app',
             description: 'Meteo react app is an app to get wheather details',
-            src: portfolio1,
+            src: portfolio2,
             link:'https://github.com/peterondy/meteo-app-react'
         },
         {
