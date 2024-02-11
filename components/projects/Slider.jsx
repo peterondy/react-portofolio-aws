@@ -2,6 +2,9 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import paxontools from '@/public/paxontools.png'
+import portfolio1 from '@/public/portfolio1.png'
+import portfolio1 from '@/public/portfolio1.jpg'
 
 import React, {useState,useEffect} from 'react'
 
@@ -11,21 +14,21 @@ export default function Slider () {
             id:1,
             title: 'Meteo react app',
             description: 'Meteo react app is an app to get wheather details',
-            src:'https://ramzi-ben-official-website.onrender.com/static/media/portfolio1.a0310a29f902dfc42bbb.PNG',
+            src: portfolio1,
             link:'https://github.com/peterondy/meteo-app-react'
         },
         {
             id:2,
             title: 'Paxon Tools',
             description: 'Paxon Tools is a tool that give you access to : change image extension, change image to pdf, change voice to speech, change speech to voice, etc...',
-            src:'https://ramzi-ben-official-website.onrender.com/static/media/paxontools.ac260d9fdfacf8fb16ce.PNG',
+            src: paxontools,
             link:'https://paxontools.onrender.com/'
         },
         {
             id:3,
             title: 'Ecommerce Platfrom',
             description: 'Ecommerce platform an example of ecommerce app.',
-            src:'https://ramzi-ben-official-website.onrender.com/static/media/portfolio3.cbab42559fe73e73906f.jpg',
+            src: portfolio1,
             link:'https://github.com/peterondy/e-commerce.github.io/'
         }
     ]
