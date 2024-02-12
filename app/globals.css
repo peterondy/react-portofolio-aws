@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+*{
+  font-family: 'Signika Negative', sans-serif;
+}
+main *{
+  font-family: 'Protest Revolution', sans-serif;
+  
+}
+main h1,h2,h3,h4,h5, h6{
+  color: rgb(23, 44, 61);
+  font-family: 'Protest Riot', sans-serif;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,9 +28,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-*{
-  font-family: 'Protest Riot', sans-serif;
-}
+
 body {
   color: rgb(var(--foreground-rgb));
     background-image: linear-gradient(45deg, rgb(23, 44, 61), lightblue);
@@ -31,9 +40,10 @@ body {
     text-wrap: balance;
   }
 }
+
+
 h1,h2,h3,h4,h5, h6{
   color: rgb(23, 44, 61);
-  font-family: 'Protest Revolution', sans-serif;
 }
 
 ::-webkit-scrollbar {
