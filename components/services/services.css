@@ -1,0 +1,142 @@
+.services{
+    width: 100%; 
+}
+h3{
+    color: #6a8b9b;
+}
+
+.cards {
+    align-items: center;
+    height: 120vh;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: calc(30%);
+    float: left;
+    background-color: rgb(23, 44, 61);
+    color: lightblue;
+    box-shadow: 0 0 10px 10px #39576a;
+}
+.card>div{
+    padding: .5rem 2rem;
+}
+.card:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card:nth-child(5){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card ul li{
+    margin: 1rem 0;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+}
+.card ul li:hover{
+    color: #6a8b9b;
+}
+.emoji{
+    float: left;
+}
+@media screen and (max-width: 1536px) {
+    .card:nth-child(1) ul li:nth-child(3){
+        font-size: .9rem;
+    }
+    .card>div{
+        padding: .5rem 1rem;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .card ul li{
+        white-space: pre-line;
+    }
+    .emoji{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cards{
+        height: 1500px;
+    }
+    .card{
+        width: calc(45%);
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .card:nth-child(1){
+        margin-left: 2.5%;
+    }
+    .card:nth-child(2){
+        margin-left: 2.5%;
+    }
+    .card:nth-child(3){
+        margin-left: 2.5%;
+    }
+    .card:nth-child(4){
+        margin-left: 2.5%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .cards{
+        height: 2000px;
+    }
+    .card{
+        width: calc(90%);
+        height: 380px;
+    }
+    .card:nth-child(1){
+        margin-left: 5%;
+    }
+    .card:nth-child(2){
+        margin-left: 5%;
+    }
+    .card:nth-child(3){
+        margin-left: 5%;
+    }
+    .card:nth-child(4){
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .cards{
+        height: 2500px;
+    }
+    .card{
+        width: calc(90%);
+        height: 450px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .cards{
+        height: 2800px;
+    }
+    .card{
+        width: calc(90%);
+        height: 500px;
+    }
+
+}
+
+
+@media screen and(max-height: 1200px) {
+    .cards{
+        height: 1500px;
+    }
+}
+@media screen and(min-height: 600px) {
+    .cards{
+        height: 1500px !important;
+    }
+}
