@@ -40,7 +40,7 @@ export default function Main () {
                             <Link href='https://www.youtube.com/@i100tech3' title='Youtube' target='_blank' className='inline-block mr-2'><CiYoutube className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
                             <Link href='https://www.pinterest.com/ramziben10' title='Pinterest' target='_blank' className='inline-block mr-2'><FaPinterestP className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
                             <Link href='https://github.com/peterondy' title='Gitub Account' target='_blank' className='inline-block mr-2'><FaGithub className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
-                            <Link href='https://twitter.com/ZainSalem01' title='Twitter Account' target='_blank' className='inline-block mr-2'><CiTwitter className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
+                            <Link href='https://twitter.com/ramzibenchadi' title='Twitter Account' target='_blank' className='inline-block mr-2'><CiTwitter className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
                             <Link href='https://t.me/+213663644389' title='Telegram Account' target='_blank' className='inline-block mr-2'><TbBrandTelegram className='text-sky-500 hover:text-sky-600 text-4xl'/></Link>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function Main () {
                     <p className='mt-4 text-2xl indent-[20px] text-sky-50'>- I love programming, learning and discover new more things in this world.</p>
                     <p className='mt-4 text-2xl indent-[20px] mb-8 text-sky-50'>- Contact me for free for any project or collaboration.</p>
                     <div className='buttons'>
-                    <Link href='/contact' title='Contact Me For Free' target='_blank' className='rounded py-4 px-8 bg-[#5c7d8f] text-white hover:bg-[#8cb3c2]'>Contact me</Link>
+                    <Link href='#contact' title='Contact Me For Free' target='_blank' className='rounded py-4 px-8 bg-[#5c7d8f] text-white hover:bg-[#8cb3c2]'>Contact me</Link>
                     <button onClick={downloadFile}  className='rounded py-4 px-8 bg-[#5c7d8f] text-white hover:bg-[#8cb3c2] mx-2' target="_blank" rel="noopener noreferrer">
                         Download My CV
                     </button>
