@@ -35,22 +35,6 @@ const Testimonials = () => {
               'He knows very well what he is doing as long as you tell him the details. He is organized, easy to deal with, and loves to help people. I highly recommend him and will deal with him in the future.',
           },
           {
-            name: 'Celian Van',
-            rate: 5,
-            role: 'Staff Engineer, Algolia',
-            image: '', // Replace with your image URL
-            testimonial:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.',
-          },
-          {
-            name: 'Celian Van',
-            rate: 5,
-            role: 'Staff Engineer, Algolia',
-            image: '', // Replace with your image URL
-            testimonial:
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.',
-          },
-          {
             name: 'Toxic Kappa',
             rate: 5,
             role: 'Staff Engineer, Algolia',
