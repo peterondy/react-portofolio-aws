@@ -50,7 +50,7 @@ export default function Slider () {
         <div className='slides'>
             {slides.map((slide, index) => (
                 <div key={index} className='slide' style={{ display: current === index ? 'block' : 'none' }}>
-                    <Link href={slide.link}><Image className='rounded' src={slide.src} width={400} height={400} alt={'Slider Image '+index}></Image></Link>
+                    <Link href={slide.link} target='_blank'><Image className='rounded' src={slide.src} width={400} height={400} alt={'Slider Image '+index}></Image></Link>
                     <h2 className='mt-8 text-3xl'>{slide.id} - {slide.title}</h2>
                     <p className='text-2xl'>{slide.description}</p>
                 </div>
