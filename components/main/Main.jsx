@@ -47,7 +47,7 @@ export default function Main () {
                 </div>
                 <div className='informationscontent w-[60%] float-right'>
                     <h1 className='text-4xl'>About ME :</h1>
-                    <p className='mt-4 text-2xl indent-[20px] text-sky-50'>- Software engineer have a Bachelor degree in Computer science. And now I'm study distributed computing system engineer and security in University of Batna 2.</p>
+                    <p className='mt-4 text-2xl indent-[20px] text-sky-50'>- Software engineer have a Bachelor degree in Computer science. And now I'm study distributed computing system engineer and security in University of Batna 2. I have also a profesional certificate from Google in Fundamental of Digital arketing in 2021.</p>
                     <p className='mt-4 text-2xl indent-[20px] text-sky-50'>- I love programming, learning and discover new more things in this world.</p>
                     <p className='mt-4 text-2xl indent-[20px] mb-8 text-sky-50'>- Contact me for free for any project or collaboration.</p>
                     <div className='buttons'>
